@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    
+    /* outline: 1px solid red; Tạm thời thêm viền để kiểm tra */
+
+}
+body{
+    
+    background-image: url('space.jpg');
+    background-attachment: fixed;
+}
+#container{
+    position: absolute;
+    width: 60%;
+    top: 20vh;
+    left: calc(20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(26, 25, 41, 0.614);
+}
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#easy:hover, #hard:hover, #nightmare:hover{
+    transition: ease 0.7s;
+    background-color: blue;
+}
+#easy{
+    background-color: green;
+    cursor: pointer; 
+    
+}
+#hard{
+    background-color:  red;
+    cursor: pointer;
+}
+#nightmare{
+    background-color: purple;
+    cursor: pointer;
+}
+h1{
+    
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    
+}
+.grid{
+   
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    /**/
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0;
+    row-gap: 0;
+    line-height: 0;
+}
+.square{
+    border: none;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0px;
+    line-height: 0;
+}
+
+.alien{
+    background-color: rgb(120, 30, 255);
+    border-radius: 50%;
+}
+.alienDead{
+    background-color: brown;
+}
+.user{
+    background-color: rgb(20, 243, 0);
+}
+
+.laser{
+    background-color: red;
+    /*width: 50%;*/
+    width: 10px;
+
+   
+}
+.laserDiv{
+    /* display: flex;
+    justify-content: center; */
+    background-color: red;
+   
+   
+}
