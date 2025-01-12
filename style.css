@@ -85,14 +85,22 @@ h1{
 }
 
 .alien{
-    background-color: rgb(120, 30, 255);
-    border-radius: 50%;
+    background-image: url(invader2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 .alienDead{
     background-color: brown;
 }
 .user{
-    background-color: rgb(20, 243, 0);
+    height: 60px;
+    background-image: url('spaceship.png');
+    background-position: center;
+    background-size: cover;
+    overflow: visible;
+    background-repeat: no-repeat;
 }
 
 .laser{
@@ -105,7 +113,10 @@ h1{
 .laserDiv{
     /* display: flex;
     justify-content: center; */
-    background-color: red;
-   
+    background-image: url(laser.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
    
 }
